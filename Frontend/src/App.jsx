@@ -23,7 +23,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/data`, {
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}data`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
